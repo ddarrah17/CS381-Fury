@@ -1,0 +1,16 @@
+material tank
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75
+
+			texture_unit
+			{
+				scale 0.80 1
+				texture TankMat.jpg
+			}
+		}
+	}
+}

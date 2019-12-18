@@ -1,0 +1,950 @@
+16:42:38: Creating resource group General
+16:42:38: Creating resource group Internal
+16:42:38: Creating resource group Autodetect
+16:42:38: SceneManagerFactory for type 'DefaultSceneManager' registered.
+16:42:38: Registering ResourceManager for type Material
+16:42:38: Registering ResourceManager for type Mesh
+16:42:38: Registering ResourceManager for type Skeleton
+16:42:38: MovableObjectFactory for type 'ParticleSystem' registered.
+16:42:38: ArchiveFactory for archive type FileSystem registered.
+16:42:38: ArchiveFactory for archive type Zip registered.
+16:42:38: ArchiveFactory for archive type EmbeddedZip registered.
+16:42:38: DDS codec registering
+16:42:38: FreeImage version: 3.17.0
+16:42:38: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+16:42:38: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,sgi,rgb,rgba,bw,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti,x3f,webp,jxr,wdp,hdp
+16:42:38: Registering ResourceManager for type HighLevelGpuProgram
+16:42:38: Registering ResourceManager for type Compositor
+16:42:38: MovableObjectFactory for type 'Entity' registered.
+16:42:38: MovableObjectFactory for type 'Light' registered.
+16:42:38: MovableObjectFactory for type 'BillboardSet' registered.
+16:42:38: MovableObjectFactory for type 'ManualObject' registered.
+16:42:38: MovableObjectFactory for type 'BillboardChain' registered.
+16:42:38: MovableObjectFactory for type 'RibbonTrail' registered.
+16:42:38: Loading library /usr/local/lib/OGRE/RenderSystem_GL
+16:42:38: Installing plugin: GL RenderSystem
+16:42:38: OpenGL Rendering Subsystem created.
+16:42:38: Plugin successfully installed
+16:42:38: Loading library /usr/local/lib/OGRE/Plugin_ParticleFX
+16:42:38: Installing plugin: ParticleFX
+16:42:38: Particle Emitter Type 'Point' registered
+16:42:38: Particle Emitter Type 'Box' registered
+16:42:38: Particle Emitter Type 'Ellipsoid' registered
+16:42:38: Particle Emitter Type 'Cylinder' registered
+16:42:38: Particle Emitter Type 'Ring' registered
+16:42:38: Particle Emitter Type 'HollowEllipsoid' registered
+16:42:38: Particle Affector Type 'LinearForce' registered
+16:42:38: Particle Affector Type 'ColourFader' registered
+16:42:38: Particle Affector Type 'ColourFader2' registered
+16:42:38: Particle Affector Type 'ColourImage' registered
+16:42:38: Particle Affector Type 'ColourInterpolator' registered
+16:42:38: Particle Affector Type 'Scaler' registered
+16:42:38: Particle Affector Type 'Rotator' registered
+16:42:38: Particle Affector Type 'DirectionRandomiser' registered
+16:42:38: Particle Affector Type 'DeflectorPlane' registered
+16:42:38: Plugin successfully installed
+16:42:38: Loading library /usr/local/lib/OGRE/Plugin_BSPSceneManager
+16:42:38: Installing plugin: BSP Scene Manager
+16:42:38: Plugin successfully installed
+16:42:38: Loading library /usr/local/lib/OGRE/Plugin_CgProgramManager
+16:42:38: Installing plugin: Cg Program Manager
+16:42:38: Plugin successfully installed
+16:42:38: Loading library /usr/local/lib/OGRE/Plugin_PCZSceneManager
+16:42:38: Installing plugin: Portal Connected Zone Scene Manager
+16:42:38: PCZone Factory Type 'ZoneType_Default' registered
+16:42:38: Plugin successfully installed
+16:42:38: Loading library /usr/local/lib/OGRE/Plugin_OctreeZone
+16:42:38: Installing plugin: Octree Zone Factory
+16:42:38: Plugin successfully installed
+16:42:38: Loading library /usr/local/lib/OGRE/Plugin_OctreeSceneManager
+16:42:38: Installing plugin: Octree Scene Manager
+16:42:38: Plugin successfully installed
+16:42:38: *-*-* OGRE Initialising
+16:42:38: *-*-* Version 1.9.0 (Ghadamon)
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/thumbnails' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/material/programs' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/material/scripts' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/material/textures' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/meshes' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/watercraft/material/maps' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/watercraft/material/scripts' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/watercraft/material/textures' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/watercraft/meshes' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '../FE3D/data/watercraft/terrain' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/SdkTrays.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/profiler.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/fonts' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/PBR/' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/programs' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/programs/Cg' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/programs/GLSL' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/programs/GLSL400' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/programs/HLSL' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/programs/HLSL_Cg' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/scripts' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/textures' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/textures/nvidia' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/models' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/home/josephstine/workspace/Fury/Mesh' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/particle' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/DeferredShadingMedia' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/PCZAppMedia' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/RTShaderLib' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/RTShaderLib/GLSL' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/RTShaderLib/HLSL_Cg' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/RTShaderLib/materials' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/scripts/SSAO' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/materials/textures/SSAO' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/volumeTerrain' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/home/josephstine/workspace/Fury/381' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/home/josephstine/workspace/Fury/381/material' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/home/josephstine/workspace/Fury/381/material/programs' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/home/josephstine/workspace/Fury/381/material/scripts' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/home/josephstine/workspace/Fury/381/material/textures' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/home/josephstine/workspace/Fury/381/meshes' of type 'FileSystem' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/cubemap.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/dragon.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/fresneldemo.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/ogretestmap.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/ogredance.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/Sinbad.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/skybox.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/volumeTerrain/volumeTerrainBig.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/share/OGRE/Media/packs/SdkTrays.zip' of type 'Zip' to resource group 'General'
+16:42:38: Added resource location '/usr/local/Tests/Media' of type 'FileSystem' to resource group 'General'
+16:42:38: CPU Identifier & Features
+16:42:38: -------------------------
+16:42:38:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+16:42:38:  *      SSE: yes
+16:42:38:  *     SSE2: yes
+16:42:38:  *     SSE3: yes
+16:42:38:  *      MMX: yes
+16:42:38:  *   MMXEXT: yes
+16:42:38:  *    3DNOW: no
+16:42:38:  * 3DNOWEXT: no
+16:42:38:  *     CMOV: yes
+16:42:38:  *      TSC: yes
+16:42:38:  *      FPU: yes
+16:42:38:  *      PRO: yes
+16:42:38:  *       HT: no
+16:42:38: -------------------------
+16:42:38: ******************************
+*** Starting GLX Subsystem ***
+******************************
+16:42:38: Registering ResourceManager for type Texture
+16:42:38: GLRenderSystem::_createRenderWindow "CS381 Game Engine Version 1.0", 800x600 windowed  miscParams: FSAA=0 displayFrequency=75 Hz gamma=No vsync=No 
+16:42:38: GLXWindow::create used FBConfigID = 182
+16:42:38: GL_VERSION = 3.0 Mesa 17.2.4
+16:42:38: GL_VENDOR = X.Org
+16:42:38: GL_RENDERER = AMD CAICOS (DRM 2.43.0 / 4.4.0-112-generic, LLVM 5.0.0)
+16:42:38: GL_EXTENSIONS = GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_polygon_offset GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_ATI_fragment_shader GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_ATI_texture_compression_3dc GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_mirror_clamp GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_ATI_texture_mirror_once GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_compression_latc GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_AMD_performance_monitor GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_stencil_export GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_ATI_meminfo GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_texture_barrier GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_texture_compression_bptc GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_NV_vdpau_interop GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_base_instance GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_texture_storage GL_ARB_transform_feedback_instanced GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_transform_feedback GL_AMD_shader_trinary_minmax GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_clear_buffer_object GL_ARB_copy_image GL_ARB_explicit_uniform_location GL_ARB_framebuffer_no_attachments GL_ARB_invalidate_subdata GL_ARB_program_interface_query GL_ARB_stencil_texturing GL_ARB_texture_query_levels GL_ARB_texture_storage_multisample GL_ARB_texture_view GL_ARB_vertex_attrib_binding GL_KHR_debug GL_AMD_pinned_memory GL_ARB_buffer_storage GL_ARB_clear_texture GL_ARB_internalformat_query2 GL_ARB_multi_bind GL_ARB_seamless_cubemap_per_texture GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_stencil8 GL_ARB_vertex_type_10f_11f_11f_rev GL_EXT_shader_integer_mix GL_NVX_gpu_memory_info GL_ARB_clip_control GL_ARB_conditional_render_inverted GL_ARB_derivative_control GL_ARB_get_texture_sub_image GL_ARB_pipeline_statistics_query GL_ARB_shader_texture_image_samples GL_ARB_texture_barrier GL_EXT_polygon_offset_clamp GL_KHR_context_flush_control GL_KHR_no_error GL_MESA_shader_integer_functions 
+16:42:38: Supported GLX extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_import_context GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_MESA_copy_sub_buffer GLX_MESA_multithread_makecurrent GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_EXT_texture_from_pixmap GLX_INTEL_swap_event 
+16:42:38: ***************************
+16:42:38: *** GL Renderer Started ***
+16:42:38: ***************************
+16:42:38: Registering ResourceManager for type GpuProgram
+16:42:38: GLSL support detected
+16:42:38: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+16:42:38: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_L8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_L16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_SHORT_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+16:42:38: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
+16:42:38: RenderSystem capabilities
+16:42:38: -------------------------
+16:42:38: RenderSystem Name: OpenGL Rendering Subsystem
+16:42:38: GPU Vendor: unknown
+16:42:38: Device Name: AMD CAICOS (DRM 2.43.0 / 4.4.0-112-generic, LLVM 5.0.0)
+16:42:38: Driver Version: 3.0.0.0
+16:42:38:  * Fixed function pipeline: yes
+16:42:38:  * Hardware generation of mipmaps: yes
+16:42:38:  * Texture blending: yes
+16:42:38:  * Anisotropic texture filtering: yes
+16:42:38:  * Dot product texture operation: yes
+16:42:38:  * Cube mapping: yes
+16:42:38:  * Hardware stencil buffer: yes
+16:42:38:    - Stencil depth: 8
+16:42:38:    - Two sided stencil support: yes
+16:42:38:    - Wrap stencil values: yes
+16:42:38:  * Hardware vertex / index buffers: yes
+16:42:38:  * Vertex programs: yes
+16:42:38:  * Number of floating-point constants for vertex programs: 4096
+16:42:38:  * Number of integer constants for vertex programs: 0
+16:42:38:  * Number of boolean constants for vertex programs: 0
+16:42:38:  * Fragment programs: yes
+16:42:38:  * Number of floating-point constants for fragment programs: 4096
+16:42:38:  * Number of integer constants for fragment programs: 0
+16:42:38:  * Number of boolean constants for fragment programs: 0
+16:42:38:  * Geometry programs: no
+16:42:38:  * Number of floating-point constants for geometry programs: 0
+16:42:38:  * Number of integer constants for geometry programs: 0
+16:42:38:  * Number of boolean constants for geometry programs: 0
+16:42:38:  * Tesselation Hull programs: no
+16:42:38:  * Number of floating-point constants for tesselation hull programs: 0
+16:42:38:  * Number of integer constants for tesselation hull programs: 0
+16:42:38:  * Number of boolean constants for tesselation hull programs: 0
+16:42:38:  * Tesselation Domain programs: no
+16:42:38:  * Number of floating-point constants for tesselation domain programs: 0
+16:42:38:  * Number of integer constants for tesselation domain programs: 0
+16:42:38:  * Number of boolean constants for tesselation domain programs: 0
+16:42:38:  * Compute programs: no
+16:42:38:  * Number of floating-point constants for compute programs: 0
+16:42:38:  * Number of integer constants for compute programs: 0
+16:42:38:  * Number of boolean constants for compute programs: 0
+16:42:38:  * Supported Shader Profiles: arbfp1 arbvp1 glsl ps_1_1 ps_1_2 ps_1_3 ps_1_4
+16:42:38:  * Texture Compression: yes
+16:42:38:    - DXT: yes
+16:42:38:    - VTC: no
+16:42:38:    - PVRTC: no
+16:42:38:    - ATC: no
+16:42:38:    - ETC1: no
+16:42:38:    - ETC2: no
+16:42:38:    - BC4/BC5: no
+16:42:38:    - BC6H/BC7: no
+16:42:38:  * Scissor Rectangle: yes
+16:42:38:  * Hardware Occlusion Query: yes
+16:42:38:  * User clip planes: yes
+16:42:38:  * VET_UBYTE4 vertex element type: yes
+16:42:38:  * Infinite far plane projection: yes
+16:42:38:  * Hardware render-to-texture: yes
+16:42:38:  * Floating point textures: yes
+16:42:38:  * Non-power-of-two textures: yes
+16:42:38:  * 1d textures: yes
+16:42:38:  * Volume textures: yes
+16:42:38:  * Multiple Render Targets: 8
+16:42:38:    - With different bit depths: yes
+16:42:38:  * Point Sprites: yes
+16:42:38:  * Extended point parameters: yes
+16:42:38:  * Max Point Size: 8192
+16:42:38:  * Vertex texture fetch: yes
+16:42:38:  * Number of world matrices: 0
+16:42:38:  * Number of texture units: 16
+16:42:38:  * Stencil buffer depth: 8
+16:42:38:  * Number of vertex blend matrices: 0
+16:42:38:    - Max vertex textures: 16
+16:42:38:    - Vertex textures shared: yes
+16:42:38:  * Render to Vertex Buffer : no
+16:42:38:  * Hardware Atomic Counters: no
+16:42:38:  * GL 1.5 without VBO workaround: no
+16:42:38:  * Frame Buffer objects: yes
+16:42:38:  * Frame Buffer objects (ARB extension): no
+16:42:38:  * Frame Buffer objects (ATI extension): no
+16:42:38:  * PBuffer support: yes
+16:42:38:  * GL 1.5 without HW-occlusion workaround: no
+16:42:38:  * Vertex Array Objects: no
+16:42:38:  * Separate shader objects: no
+16:42:38: DefaultWorkQueue('Root') initialising on thread 7f6e9b032800.
+16:42:38: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e86b75700 starting.
+16:42:38: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e86374700 starting.
+16:42:38: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e7ffff700 starting.
+16:42:38: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e85b73700 starting.
+16:42:38: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e85372700 starting.
+16:42:38: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e84b71700 starting.
+16:42:38: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e7f7fe700 starting.
+16:42:38: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e7effd700 starting.
+16:42:38: Particle Renderer Type 'billboard' registered
+16:42:38: SceneManagerFactory for type 'BspSceneManager' registered.
+16:42:38: Registering ResourceManager for type BspLevel
+16:42:38: SceneManagerFactory for type 'PCZSceneManager' registered.
+16:42:38: MovableObjectFactory for type 'PCZLight' registered.
+16:42:38: MovableObjectFactory for type 'Portal' registered.
+16:42:38: MovableObjectFactory for type 'AntiPortal' registered.
+16:42:38: PCZone Factory Type 'ZoneType_Octree' registered
+16:42:38: SceneManagerFactory for type 'OctreeSceneManager' registered.
+16:42:38: OverlayElementFactory for type Panel registered.
+16:42:38: OverlayElementFactory for type BorderPanel registered.
+16:42:38: OverlayElementFactory for type TextArea registered.
+16:42:38: Registering ResourceManager for type Font
+16:42:38: Parsing scripts for resource group Autodetect
+16:42:38: Finished parsing scripts for resource group Autodetect
+16:42:38: Creating resources for group Autodetect
+16:42:38: All done
+16:42:38: Parsing scripts for resource group General
+16:42:39: Parsing script pbr.program
+16:42:39: Parsing script StdQuad_vp.program
+16:42:39: Parsing script Examples.program
+16:42:39: Parsing script Instancing.program
+16:42:39: Parsing script DualQuaternion.program
+16:42:39: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/DualQuaternionHardwareSkinningTwoWeightsTwoPhaseCg: The compile returned an error.
+DualQuaternion_Common.cg(167) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+ in CgProgram::compileMicrocode at /ogre_build/ogre/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
+16:42:39: High-level program Ogre/DualQuaternionHardwareSkinningTwoWeightsTwoPhaseCg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/DualQuaternionHardwareSkinningTwoWeightsTwoPhaseCg: The compile returned an error.
+DualQuaternion_Common.cg(167) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+(0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
+ in CgProgram::compileMicrocode at /ogre_build/ogre/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternion.program(28): setting of constant failed
+16:42:39: Parsing script deferred_post.program
+16:42:39: Parsing script ShadowCaster.program
+16:42:39: Parsing script GBuffer.program
+16:42:39: Parsing script triplanarReference.program
+16:42:39: Parsing script StdQuad_vp.program
+16:42:39: Parsing script Examples.program
+16:42:39: Parsing script SdkTrays.material
+16:42:39: Parsing script OgreProfiler.material
+16:42:39: Parsing script glTF2_PBR.material
+16:42:39: Parsing script IsoSurf.material
+16:42:39: Parsing script Tiling.material
+16:42:39: Parsing script Dither.material
+16:42:39: Parsing script ShaderSystem.material
+16:42:39: Parsing script Swizzle.material
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Parameter called WorldViewProj does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1719)
+16:42:39: Compiler error: invalid parameters in Swizzle.material(68): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Parameter called origColour does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1719)
+16:42:39: Compiler error: invalid parameters in Swizzle.material(79): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Parameter called cloneColour does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1719)
+16:42:39: Compiler error: invalid parameters in Swizzle.material(80): setting of constant failed
+16:42:39: Parsing script AdaptivePNTrianglesTessellation.material
+16:42:39: Parsing script ASCII.material
+16:42:39: Parsing script ASMSwizzle.material
+16:42:39: Compiler error: object unsupported by render system in ASMSwizzle.material(1): , Shader name: Ogre/GPTest/Swizzle_GP_ASM
+16:42:39: Parsing script Posterize.material
+16:42:39: Parsing script VarianceShadowmap.material
+16:42:39: Parsing script CGSwizzle.material
+16:42:39: Parsing script TerrainTessellation.material
+16:42:39: Compiler error: unknown error in TerrainTessellation.material(123): token class, tessellation_hull_program, unrecognized.
+16:42:39: Compiler error: unknown error in TerrainTessellation.material(140): token class, tessellation_domain_program, unrecognized.
+16:42:39: Compiler error: unknown error in TerrainTessellation.material(177): token class, tessellation_hull_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in TerrainTessellation.material(182): token class, tessellation_domain_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in TerrainTessellation.material(177): token "tessellation_hull_program_ref" is not recognized
+16:42:39: Compiler error: unknown error in TerrainTessellation.material(182): token "tessellation_domain_program_ref" is not recognized
+16:42:39: Parsing script Ocean.material
+16:42:39: Parsing script Examples.material
+16:42:39: Parsing script Laplace.material
+16:42:39: Parsing script Tesselation.material
+16:42:39: Parsing script RadialBlur.material
+16:42:39: Parsing script instancing.material
+16:42:39: Parsing script NightVision.material
+16:42:39: Parsing script sibenik.material
+16:42:39: Parsing script Examples-DynTex.material
+16:42:39: Parsing script Penguin.material
+16:42:39: Parsing script ParticleGS.material
+16:42:39: Parsing script HWInstancing.material
+16:42:39: Parsing script hdr.material
+16:42:39: Parsing script RZR-002.material
+16:42:39: Parsing script BlackAndWhite.material
+16:42:39: Parsing script HeatVision.material
+16:42:39: Parsing script GLSLSwizzle.material
+16:42:39: Parsing script VTFInstancing.material
+16:42:39: Parsing script Bloom.material
+16:42:39: Parsing script OffsetMapping.material
+16:42:39: Parsing script Examples-Water.material
+16:42:39: Parsing script OldTV.material
+16:42:39: Parsing script Tessellation.material
+16:42:39: Compiler error: unknown error in Tessellation.material(20): token class, tessellation_hull_program, unrecognized.
+16:42:39: Compiler error: unknown error in Tessellation.material(32): token class, tessellation_hull_program, unrecognized.
+16:42:39: Compiler error: unknown error in Tessellation.material(43): token class, tessellation_hull_program, unrecognized.
+16:42:39: Compiler error: unknown error in Tessellation.material(49): token class, tessellation_domain_program, unrecognized.
+16:42:39: Compiler error: unknown error in Tessellation.material(61): token class, tessellation_domain_program, unrecognized.
+16:42:39: Compiler error: unknown error in Tessellation.material(72): token class, tessellation_domain_program, unrecognized.
+16:42:39: Compiler error: unknown error in Tessellation.material(111): token class, tessellation_hull_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in Tessellation.material(116): token class, tessellation_domain_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in Tessellation.material(111): token "tessellation_hull_program_ref" is not recognized
+16:42:39: Compiler error: unknown error in Tessellation.material(116): token "tessellation_domain_program_ref" is not recognized
+16:42:39: Parsing script Compute.material
+16:42:39: Parsing script HW_VTFInstancing.material
+16:42:39: Parsing script Island.material
+16:42:39: Compiler error: unknown error in Island.material(199): token class, tessellation_hull_program, unrecognized.
+16:42:39: Compiler error: unknown error in Island.material(215): token class, tessellation_domain_program, unrecognized.
+16:42:39: Compiler error: unknown error in Island.material(271): token class, tessellation_hull_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in Island.material(275): token class, tessellation_domain_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in Island.material(295): token class, tessellation_hull_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in Island.material(299): token class, tessellation_domain_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in Island.material(315): token class, tessellation_domain_program, unrecognized.
+16:42:39: Compiler error: unknown error in Island.material(364): token class, tessellation_hull_program_ref, unrecognized.
+16:42:39: Compiler error: unknown error in Island.material(368): token class, tessellation_domain_program_ref, unrecognized.
+16:42:39: Parsing script HW_VTF_LUTInstancing.material
+16:42:39: Parsing script OldMovie.material
+16:42:39: Parsing script Hair.material
+16:42:39: Parsing script ShaderInstancing.material
+16:42:39: Parsing script Invert.material
+16:42:39: Parsing script shadows.material
+16:42:39: Parsing script Bloom2.material
+16:42:39: Parsing script Glass.material
+16:42:39: Parsing script RasterizationOrder.material
+16:42:39: Parsing script DepthShadowmap.material
+16:42:39: Parsing script DualQuaternion.material
+16:42:39: Parsing script Examples-Advanced.material
+16:42:39: Compiler error: object unsupported by render system in Examples-Advanced.material(938): , Shader name: Examples/TextureArrayPSasm
+16:42:39: Parsing script Example-Water.material
+16:42:39: Parsing script Ogre.material
+16:42:39: Parsing script Embossed.material
+16:42:39: Parsing script smoke.material
+16:42:39: Parsing script Halftone.material
+16:42:39: Parsing script DOF.material
+16:42:39: Parsing script SharpenEdges.material
+16:42:39: Parsing script InstancingMisc.material
+16:42:39: Parsing script MotionBlur.material
+16:42:39: Parsing script AtomicCounters.material
+16:42:39: Compiler error: number expected in AtomicCounters.material(3): true invalid - extra parameters to shared_param_named must be numbers
+16:42:39: Compiler error: number expected in AtomicCounters.material(14): false invalid - extra parameters to shared_param_named must be numbers
+16:42:39: Parsing script Hurt.material
+16:42:39: Parsing script FluidSim.material
+16:42:39: Parsing script facial.material
+16:42:39: Parsing script DamagedHelmet.material
+16:42:39: Compiler error: unknown error in DamagedHelmet.material(64): token "rtshader_system" is not recognized
+16:42:39: Parsing script MRTtest.material
+16:42:39: Parsing script pssm.material
+16:42:39: Parsing script CompositorDemo.material
+16:42:39: Parsing script deferred_post.material
+16:42:39: Parsing script ShadowCaster.material
+16:42:39: Parsing script deferred_post_minilight.material
+16:42:39: Parsing script ssao.material
+16:42:39: Parsing script deferreddemo.material
+16:42:39: Parsing script ROOM.material
+16:42:39: Parsing script DualQuaternionSkinning_Shadow.material
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_dq_ps_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_dq_skinning_1weight_vs_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(149): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(150): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(151): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_dq_skinning_2weight_vs_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(165): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(166): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(167): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_dq_skinning_3weight_vs_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(180): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(181): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(182): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_dq_skinning_4weight_vs_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(196): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(197): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(198): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_dq_skinning_1weight_twophase_vs_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(211): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(212): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(213): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(214): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_dq_skinning_2weight_twophase_vs_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DualQuaternionSkinning_Shadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(228): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(229): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(230): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(231): setting of constant failed
+16:42:39: Parsing script TriplanarTexturing.material
+16:42:39: Compiler error: unknown error in TriplanarTexturing.material(9): token "rtshader_system" is not recognized
+16:42:39: Parsing script RTShaderSystem.material
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(23): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(52): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(110): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(146): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(162): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(110): token "rtshader_system" is not recognized
+16:42:39: Compiler error: unknown error in RTShaderSystem.material(211): token "rtshader_system" is not recognized
+16:42:39: Parsing script HardwareSkinningShadow.material
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_ps_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_skinning_1weight_vs encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(29): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(30): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_skinning_2weight_vs_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(43): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(44): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_skinning_3weight_vs encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(57): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(58): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_caster_skinning_4weight_vs encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(72): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(73): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_receiver_vs encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in HardwareSkinningShadow.material(206): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program Ogre/RTShader/shadow_receiver_ps encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HardwareSkinningShadow.cg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: Parsing script ShowDepth.material
+16:42:39: Parsing script UnsharpMask.material
+16:42:39: Parsing script GBuffer.material
+16:42:39: Parsing script ShowNormals.material
+16:42:39: Parsing script CreaseShading.material
+16:42:39: Parsing script Volumetric.material
+16:42:39: Parsing script SSAOPost.material
+16:42:39: Parsing script ShowViewPos.material
+16:42:39: Parsing script Crytek.material
+16:42:39: Parsing script Modulate.material
+16:42:39: Parsing script HemisphereMC.material
+16:42:39: Parsing script HorizonBased.material
+16:42:39: Parsing script triplanarReference.material
+16:42:39: Parsing script Examples-Advanced.material
+16:42:39: Parsing script HeatVision.material
+16:42:39: Parsing script Hurt.material
+16:42:39: Parsing script Ogre.material
+16:42:39: Parsing script Example-Water.material
+16:42:39: Parsing script Dither.material
+16:42:39: Parsing script ASMSwizzle.material
+16:42:39: Compiler error: object unsupported by render system in ASMSwizzle.material(1): , Shader name: Ogre/GPTest/Swizzle_GP_ASM
+16:42:39: Parsing script instancing.material
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource crowdVp.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program CrowdGLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource crowdVp.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(89): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(90): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(91): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(92): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(93): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(94): setting of constant failed
+16:42:39: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource crowdVp.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: High-level program CrowdShadowCasterGLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource crowdVp.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(103): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(104): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(105): setting of constant failed
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+16:42:39: Compiler error: invalid parameters in instancing.material(106): setting of constant failed
+16:42:39: Parsing script sailboat.material
+16:42:39: Compiler error: unknown error in sailboat.material(87): token "60.0," is not recognized
+16:42:39: Parsing script f1Overlay.material
+16:42:39: Parsing script boat.material
+16:42:39: Parsing script IsoSurf.material
+16:42:39: Parsing script missile.material
+16:42:39: Compiler error: unknown error in missile.material(7): token "59.4555039496997," is not recognized
+16:42:39: Parsing script RadialBlur.material
+16:42:39: Parsing script cigarette.material
+16:42:39: Parsing script Invert.material
+16:42:39: Parsing script facial.material
+16:42:39: Parsing script wake.material
+16:42:39: Parsing script DepthShadowmap.material
+16:42:39: Parsing script hdr.material
+16:42:39: Parsing script rmenu.material
+16:42:39: Parsing script Glass.material
+16:42:39: Parsing script bullet.material
+16:42:39: Parsing script Embossed.material
+16:42:39: Parsing script NightVision.material
+16:42:39: Parsing script tank2.material
+16:42:39: Parsing script Bloom2.material
+16:42:39: Parsing script Example-DynTex.material
+16:42:39: Parsing script banshee.material
+16:42:39: Parsing script VarianceShadowmap.material
+16:42:39: Parsing script MRTtest.material
+16:42:39: Parsing script ui4.material
+16:42:39: Parsing script OffsetMapping.material
+16:42:39: Parsing script OgreOcean.material
+16:42:39: Parsing script ui.material
+16:42:39: Parsing script Example.material
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Parameter called camObjPos does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1719)
+16:42:39: Compiler error: invalid parameters in Example.material(762): setting of constant failed
+16:42:39: Parsing script Halftone.material
+16:42:39: Parsing script Tiling.material
+16:42:39: OGRE EXCEPTION(2:InvalidParametersException): Parameter called Threshhold does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at /ogre_build/ogre/OgreMain/src/OgreGpuProgramParams.cpp (line 1719)
+16:42:39: Compiler error: invalid parameters in Tiling.material(27): setting of constant failed
+16:42:39: Parsing script CGSwizzle.material
+16:42:39: Parsing script ui3.material
+16:42:39: Parsing script Posterize.material
+16:42:39: Parsing script SharpenEdges.material
+16:42:39: Parsing script pssm.material
+16:42:39: Parsing script ASCII.material
+16:42:39: Parsing script RZR-002.material
+16:42:39: Parsing script ddg51.material
+16:42:39: Parsing script shipInfo.material
+16:42:39: Parsing script Bloom.material
+16:42:39: Parsing script DOF.material
+16:42:39: Parsing script Scene.material
+16:42:39: Parsing script Laplace.material
+16:42:39: Parsing script OldTV.material
+16:42:39: Parsing script cursor.material
+16:42:39: Parsing script button.material
+16:42:39: Parsing script tank.material
+16:42:39: Parsing script MotionBlur.material
+16:42:39: Parsing script ui5.material
+16:42:39: Parsing script GLSLSwizzle.material
+16:42:39: Parsing script BlackAndWhite.material
+16:42:39: Parsing script smoke.material
+16:42:39: Parsing script sleek.material
+16:42:39: Parsing script OldMovie.material
+16:42:39: Parsing script alienship.material
+16:42:39: Compiler error: unknown error in alienship.material(90): token "1.0," is not recognized
+16:42:39: Parsing script ui2.material
+16:42:39: Parsing script ParticleGS.material
+16:42:39: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayPS: The compile returned an error.
+(647) : fatal error C9999: unexpected cast operation
+ in CgProgram::compileMicrocode at /ogre_build/ogre/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
+16:42:39: High-level program Ogre/ParticleGS/DisplayPS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayPS: The compile returned an error.
+(647) : fatal error C9999: unexpected cast operation
+ in CgProgram::compileMicrocode at /ogre_build/ogre/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
+16:42:39: Parsing script RomanBath.material
+16:42:39: Parsing script Sinbad.material
+16:42:39: Parsing script SdkTrays.material
+16:42:39: Parsing script smoke.particle
+16:42:39: Parsing script emitted_emitter.particle
+16:42:39: Parsing script Examples.particle
+16:42:39: Parsing script Examples-Water.particle
+16:42:39: Parsing script Examples.compositor
+16:42:39: Parsing script deferred.compositor
+16:42:39: Parsing script ssao.compositor
+16:42:39: Parsing script SSAO.compositor
+16:42:39: Parsing script SSAOPost.compositor
+16:42:39: Parsing script Examples.compositor
+16:42:39: Parsing script SdkTrays.fontdef
+16:42:39: Parsing script SdkTrays.fontdef
+16:42:39: Parsing script SdkTrays.overlay
+16:42:39: Texture: sdk_cursor.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+16:42:39: Texture: sdk_tray.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+16:42:39: Texture: sdk_button_up.png: Loading 1 faces(PF_A8R8G8B8,128x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x32x1.
+16:42:39: Texture: sdk_text_box.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+16:42:39: Texture: sdk_mini_tray.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+16:42:39: Texture: sdk_track.png: Loading 1 faces(PF_A8R8G8B8,16x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,16x32x1.
+16:42:39: Texture: sdk_handle.png: Loading 1 faces(PF_A8R8G8B8,16x16x1) with 4 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,16x16x1.
+16:42:39: Texture: sdk_mini_text_box.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+16:42:39: Texture: sdk_label.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+16:42:39: Texture: sdk_separator.png: Loading 1 faces(PF_A8R8G8B8,64x16x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x16x1.
+16:42:39: Texture: sdk_logo.png: Loading 1 faces(PF_A8R8G8B8,128x64x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x64x1.
+16:42:39: Texture: sdk_shade.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x48x1.
+16:42:39: Texture: sdk_frame.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+16:42:39: Texture: sdk_mini_text_box_over.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+16:42:39: Texture: sdk_pulse.png: Loading 1 faces(PF_R8G8B8,8x1x1) with 3 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,8x1x1.
+16:42:39: Parsing script SdkTrays.overlay
+16:42:39: Skipping loading overlay include: 'SdkTrays.overlay as it is already loaded.
+16:42:39: Finished parsing scripts for resource group General
+16:42:39: Creating resources for group General
+16:42:39: All done
+16:42:39: Parsing scripts for resource group Internal
+16:42:39: Finished parsing scripts for resource group Internal
+16:42:39: Creating resources for group Internal
+16:42:39: All done
+16:42:40: Mesh: Loading robot.mesh.
+16:42:40: Skeleton: Loading robot.skeleton
+16:42:40: Texture: r2skin.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+16:42:40: Texture: grass_1024.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+16:42:40: Texture: cloudy_noon_fr.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+16:42:40: Texture: cloudy_noon_bk.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+16:42:40: Texture: cloudy_noon_lf.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+16:42:40: Texture: cloudy_noon_rt.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+16:42:40: Texture: cloudy_noon_up.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+16:42:40: Texture: cloudy_noon_dn.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+16:42:40: Mesh: Loading PlayerTank.mesh.
+16:42:40: Can't assign material Tank to SubEntity of Ogre/MO3 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:40: Texture: TankMat.jpg: Loading 1 faces(PF_R8G8B8,1920x1080x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1920x1080x1.
+16:42:40: Texture: FurySplash.jpg: Loading 1 faces(PF_R8G8B8,1920x1080x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1920x1080x1.
+16:42:41: Texture: Controls.png: Loading 1 faces(PF_A8R8G8B8,1920x1080x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1920x1080x1.
+16:42:42: Font SdkTrays/Caption using texture size 512x256
+16:42:42: Info: Freetype returned null for character 160 in font SdkTrays/Caption
+16:42:42: Texture: SdkTrays/CaptionTexture: Loading 1 faces(PF_BYTE_LA,512x256x1) Internal format is PF_BYTE_LA,512x256x1.
+16:42:42: Font SdkTrays/Value using texture size 512x256
+16:42:42: Info: Freetype returned null for character 127 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 128 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 129 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 130 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 131 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 132 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 133 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 134 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 135 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 136 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 137 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 138 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 139 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 140 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 141 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 142 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 143 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 144 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 145 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 146 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 147 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 148 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 149 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 150 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 151 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 152 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 153 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 154 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 155 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 156 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 157 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 158 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 159 in font SdkTrays/Value
+16:42:42: Info: Freetype returned null for character 160 in font SdkTrays/Value
+16:42:42: Texture: SdkTrays/ValueTexture: Loading 1 faces(PF_BYTE_LA,512x256x1) Internal format is PF_BYTE_LA,512x256x1.
+16:42:43: Texture: sdk_button_over.png: Loading 1 faces(PF_A8R8G8B8,128x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x32x1.
+16:42:43: Texture: sdk_button_down.png: Loading 1 faces(PF_A8R8G8B8,128x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x32x1.
+16:42:43: Mesh: Loading AITank.mesh.
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO4 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource EnemyTank.jpg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:43: Error loading texture EnemyTank.jpg. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource EnemyTank.jpg in resource group General or any other group. in ResourceGroupManager::openResource at /ogre_build/ogre/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO5 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO6 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO7 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO8 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO9 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO10 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO11 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO12 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:43: Can't assign material Tank to SubEntity of Ogre/MO13 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:45: Mesh: Loading bullet.mesh.
+16:42:45: Can't assign material bullet to SubEntity of Ogre/MO14 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:46: Can't assign material bullet to SubEntity of Ogre/MO15 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:46: Can't assign material bullet to SubEntity of Ogre/MO16 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO17 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO18 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO19 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO20 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO21 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO22 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO23 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO24 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO25 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO26 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:48: Can't assign material bullet to SubEntity of Ogre/MO27 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:49: Can't assign material bullet to SubEntity of Ogre/MO28 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:49: Can't assign material bullet to SubEntity of Ogre/MO29 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:50: Can't assign material bullet to SubEntity of Ogre/MO30 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:51: Can't assign material bullet to SubEntity of Ogre/MO31 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:52: Can't assign material bullet to SubEntity of Ogre/MO32 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:52: Can't assign material bullet to SubEntity of Ogre/MO33 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO34 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO35 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO36 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO37 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO38 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO39 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO40 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO41 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO42 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO43 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO44 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:53: Can't assign material bullet to SubEntity of Ogre/MO45 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:54: Can't assign material bullet to SubEntity of Ogre/MO46 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:55: Can't assign material bullet to SubEntity of Ogre/MO47 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:57: Can't assign material bullet to SubEntity of Ogre/MO48 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:57: Can't assign material bullet to SubEntity of Ogre/MO49 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:57: Can't assign material bullet to SubEntity of Ogre/MO50 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO51 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO52 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO53 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO54 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO55 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO56 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO57 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO58 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO59 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO60 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO61 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:58: Can't assign material bullet to SubEntity of Ogre/MO62 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:42:59: Can't assign material bullet to SubEntity of Ogre/MO63 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:00: Can't assign material bullet to SubEntity of Ogre/MO64 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:00: Can't assign material bullet to SubEntity of Ogre/MO65 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:01: Can't assign material bullet to SubEntity of Ogre/MO66 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:01: Can't assign material bullet to SubEntity of Ogre/MO67 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO68 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO69 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO70 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO71 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO72 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO73 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO74 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO75 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO76 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:04: Can't assign material bullet to SubEntity of Ogre/MO77 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:06: Can't assign material bullet to SubEntity of Ogre/MO78 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:06: Can't assign material bullet to SubEntity of Ogre/MO79 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:07: Can't assign material bullet to SubEntity of Ogre/MO80 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:07: Can't assign material bullet to SubEntity of Ogre/MO81 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:07: Can't assign material bullet to SubEntity of Ogre/MO82 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:08: Can't assign material bullet to SubEntity of Ogre/MO83 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:08: Can't assign material bullet to SubEntity of Ogre/MO84 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:08: Can't assign material bullet to SubEntity of Ogre/MO85 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:08: Can't assign material bullet to SubEntity of Ogre/MO86 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:09: Can't assign material bullet to SubEntity of Ogre/MO87 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:09: Can't assign material bullet to SubEntity of Ogre/MO88 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:09: Can't assign material bullet to SubEntity of Ogre/MO89 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO90 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO91 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO92 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO93 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO94 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO95 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO96 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO97 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO98 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:10: Can't assign material bullet to SubEntity of Ogre/MO99 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:12: Can't assign material bullet to SubEntity of Ogre/MO100 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:14: Can't assign material bullet to SubEntity of Ogre/MO101 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:14: Can't assign material bullet to SubEntity of Ogre/MO102 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:15: Can't assign material bullet to SubEntity of Ogre/MO103 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:15: Can't assign material bullet to SubEntity of Ogre/MO104 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO105 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO106 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO107 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO108 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO109 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO110 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO111 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO112 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO113 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:16: Can't assign material bullet to SubEntity of Ogre/MO114 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:17: Can't assign material bullet to SubEntity of Ogre/MO115 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:19: Can't assign material bullet to SubEntity of Ogre/MO116 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:19: Can't assign material bullet to SubEntity of Ogre/MO117 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:19: Can't assign material bullet to SubEntity of Ogre/MO118 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:19: Can't assign material bullet to SubEntity of Ogre/MO119 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:20: Can't assign material bullet to SubEntity of Ogre/MO120 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:20: Can't assign material bullet to SubEntity of Ogre/MO121 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:20: Can't assign material bullet to SubEntity of Ogre/MO122 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:21: Can't assign material bullet to SubEntity of Ogre/MO123 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:21: Can't assign material bullet to SubEntity of Ogre/MO124 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO125 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO126 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO127 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO128 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO129 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO130 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO131 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO132 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO133 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:22: Can't assign material bullet to SubEntity of Ogre/MO134 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:23: Can't assign material bullet to SubEntity of Ogre/MO135 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:23: Can't assign material bullet to SubEntity of Ogre/MO136 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:24: Can't assign material bullet to SubEntity of Ogre/MO137 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:25: Can't assign material bullet to SubEntity of Ogre/MO138 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:25: Can't assign material bullet to SubEntity of Ogre/MO139 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:25: Can't assign material bullet to SubEntity of Ogre/MO140 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:25: Can't assign material bullet to SubEntity of Ogre/MO141 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:28: Can't assign material bullet to SubEntity of Ogre/MO142 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:28: Can't assign material bullet to SubEntity of Ogre/MO143 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO144 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO145 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO146 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO147 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO148 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO149 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO150 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO151 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO152 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO153 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:29: Can't assign material bullet to SubEntity of Ogre/MO154 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:31: Can't assign material bullet to SubEntity of Ogre/MO155 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:35: Can't assign material bullet to SubEntity of Ogre/MO156 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:35: Can't assign material bullet to SubEntity of Ogre/MO157 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:35: Can't assign material bullet to SubEntity of Ogre/MO158 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Texture: RoundOver.png: Loading 1 faces(PF_A8R8G8B8,1920x1080x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1920x1080x1.
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO159 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO160 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO161 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO162 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO163 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO164 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO165 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO166 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO167 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:36: Can't assign material bullet to SubEntity of Ogre/MO168 because this Material does not exist. Have you forgotten to define it in a .material script?
+16:43:39: Texture: Credits.png: Loading 1 faces(PF_A8R8G8B8,1920x1080x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1920x1080x1.
+16:43:40: DefaultWorkQueue('Root') shutting down on thread 7f6e9b032800.
+16:43:40: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e86b75700 stopped.
+16:43:40: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e84b71700 stopped.
+16:43:40: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e7ffff700 stopped.
+16:43:40: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e85b73700 stopped.
+16:43:40: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e85372700 stopped.
+16:43:40: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e86374700 stopped.
+16:43:40: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e7f7fe700 stopped.
+16:43:40: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6e7effd700 stopped.
+16:43:40: PCZone Factory Type 'ZoneType_Octree' unregistered
+16:43:40: Unregistering ResourceManager for type BspLevel
+16:43:40: *-*-* OGRE Shutdown

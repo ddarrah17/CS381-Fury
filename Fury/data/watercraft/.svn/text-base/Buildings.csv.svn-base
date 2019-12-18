@@ -1,0 +1,13 @@
+"Building","Minerals","Gas","HP","BuildTime","Sight"
+"Command Center",400,0,1500,120,400
+"Supply Depot",100,0,500,40,320
+"Refinery",100,0,750,40,320
+"Barracks",150,0,1000,80,320
+"Bunker",100,0,350,30,400
+"Engineering Bay",125,0,850,60,320
+"Academy",150,0,600,80,320
+"Factory",200,100,1250,80,320
+"Turret",75,0,200,30,440
+"Armory",100,50,750,80,400
+"Port",150,100,1300,70,400
+"Research Facility",100,150,850,60,400

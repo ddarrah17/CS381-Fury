@@ -1,0 +1,16 @@
+material tank2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+
+			texture_unit
+			{
+				scale 0.80 1
+				texture EnemyTank.jpg
+			}
+		}
+	}
+}
